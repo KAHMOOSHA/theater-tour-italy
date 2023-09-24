@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/theater-tour-italy/static/css/main.073c9b0a.css",
-    "main.js": "/theater-tour-italy/static/js/main.eff80ec7.js",
+    "main.css": "/theater-tour-italy/static/css/main.100d5bbf.css",
+    "main.js": "/theater-tour-italy/static/js/main.bdede277.js",
     "static/js/787.02091856.chunk.js": "/theater-tour-italy/static/js/787.02091856.chunk.js",
-    "static/media/logo.svg": "/theater-tour-italy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/trailer.mp4": "/theater-tour-italy/static/media/trailer.eadd977ab799ca5724de.mp4",
+    "static/media/main5.jpg": "/theater-tour-italy/static/media/main5.684fa595dae104855cdf.jpg",
+    "static/media/main2.jpg": "/theater-tour-italy/static/media/main2.1fb46735e707e3703880.jpg",
+    "static/media/main4.jpg": "/theater-tour-italy/static/media/main4.3e79165bfb621fa4e566.jpg",
+    "static/media/main1.jpg": "/theater-tour-italy/static/media/main1.ea510de232cff2239074.jpg",
+    "static/media/main3.jpg": "/theater-tour-italy/static/media/main3.b9a9df116432af749e0a.jpg",
+    "static/media/bootstrap-icons.woff?": "/theater-tour-italy/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/birds.png": "/theater-tour-italy/static/media/birds.400831f544d9f01c65f6.png",
+    "static/media/bootstrap-icons.woff2?": "/theater-tour-italy/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/Khebrat-Musamim-New.ttf": "/theater-tour-italy/static/media/Khebrat-Musamim-New.00e0b8c303b7fceb1cc8.ttf",
     "index.html": "/theater-tour-italy/index.html",
-    "main.073c9b0a.css.map": "/theater-tour-italy/static/css/main.073c9b0a.css.map",
-    "main.eff80ec7.js.map": "/theater-tour-italy/static/js/main.eff80ec7.js.map",
+    "main.100d5bbf.css.map": "/theater-tour-italy/static/css/main.100d5bbf.css.map",
+    "main.bdede277.js.map": "/theater-tour-italy/static/js/main.bdede277.js.map",
     "787.02091856.chunk.js.map": "/theater-tour-italy/static/js/787.02091856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.eff80ec7.js"
+    "static/css/main.100d5bbf.css",
+    "static/js/main.bdede277.js"
   ]
 }
