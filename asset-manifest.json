@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/theater-tour-italy/static/css/main.073c9b0a.css",
-    "main.js": "/theater-tour-italy/static/js/main.607a1872.js",
+    "main.js": "/theater-tour-italy/static/js/main.eff80ec7.js",
     "static/js/787.02091856.chunk.js": "/theater-tour-italy/static/js/787.02091856.chunk.js",
     "static/media/logo.svg": "/theater-tour-italy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/theater-tour-italy/index.html",
     "main.073c9b0a.css.map": "/theater-tour-italy/static/css/main.073c9b0a.css.map",
-    "main.607a1872.js.map": "/theater-tour-italy/static/js/main.607a1872.js.map",
+    "main.eff80ec7.js.map": "/theater-tour-italy/static/js/main.eff80ec7.js.map",
     "787.02091856.chunk.js.map": "/theater-tour-italy/static/js/787.02091856.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.607a1872.js"
+    "static/js/main.eff80ec7.js"
   ]
 }
