@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/theater-tour-italy/static/css/main.db2f932f.css",
-    "main.js": "/theater-tour-italy/static/js/main.1b563c49.js",
+    "main.css": "/theater-tour-italy/static/css/main.4dadd79b.css",
+    "main.js": "/theater-tour-italy/static/js/main.3fd71527.js",
     "static/js/787.02091856.chunk.js": "/theater-tour-italy/static/js/787.02091856.chunk.js",
     "static/media/trailer.mp4": "/theater-tour-italy/static/media/trailer.eadd977ab799ca5724de.mp4",
     "static/media/main5.jpg": "/theater-tour-italy/static/media/main5.684fa595dae104855cdf.jpg",
@@ -10,19 +10,19 @@
     "static/media/main1.jpg": "/theater-tour-italy/static/media/main1.ea510de232cff2239074.jpg",
     "static/media/main3.jpg": "/theater-tour-italy/static/media/main3.b9a9df116432af749e0a.jpg",
     "static/media/effect-main-edited.png": "/theater-tour-italy/static/media/effect-main-edited.49f84bbfa80d73ee962b.png",
-    "static/media/about-03.png": "/theater-tour-italy/static/media/about-03.c0aec2c3d6ff199dd15a.png",
+    "static/media/website bg-03.png": "/theater-tour-italy/static/media/website bg-03.27e21116f452e11a9e3b.png",
     "static/media/bootstrap-icons.woff?": "/theater-tour-italy/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/birds.png": "/theater-tour-italy/static/media/birds.400831f544d9f01c65f6.png",
     "static/media/bootstrap-icons.woff2?": "/theater-tour-italy/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "static/media/effect-main.png": "/theater-tour-italy/static/media/effect-main.5f21832fdc104e529fa8.png",
     "static/media/Khebrat-Musamim-New.ttf": "/theater-tour-italy/static/media/Khebrat-Musamim-New.00e0b8c303b7fceb1cc8.ttf",
     "index.html": "/theater-tour-italy/index.html",
-    "main.db2f932f.css.map": "/theater-tour-italy/static/css/main.db2f932f.css.map",
-    "main.1b563c49.js.map": "/theater-tour-italy/static/js/main.1b563c49.js.map",
+    "main.4dadd79b.css.map": "/theater-tour-italy/static/css/main.4dadd79b.css.map",
+    "main.3fd71527.js.map": "/theater-tour-italy/static/js/main.3fd71527.js.map",
     "787.02091856.chunk.js.map": "/theater-tour-italy/static/js/787.02091856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2f932f.css",
-    "static/js/main.1b563c49.js"
+    "static/css/main.4dadd79b.css",
+    "static/js/main.3fd71527.js"
   ]
 }
