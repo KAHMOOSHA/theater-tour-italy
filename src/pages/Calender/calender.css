@@ -1,0 +1,85 @@
+@font-face {
+  font-family: mainFont;
+  src: url(../../fonts/Khebrat-Musamim-New.ttf);
+}
+
+.calender__container {
+  width: 100%;
+  height: 100vh;
+  padding: 6rem 2rem 2rem 2rem;
+  background-color: rgba(0, 0, 0, 0.438);
+  position: relative;
+  overflow: scroll;
+}
+
+.calender__container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.calender__container {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.calender__container table {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+  font-family: mainFont;
+  vertical-align: top;
+  text-align: left;
+}
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 1%;
+  color: white;
+  font-size: 1.5rem;
+  width: calc(100% / 7);
+}
+
+.month {
+  font-size: 3rem;
+}
+
+.event {
+  background-color: #ad3d0c;
+  cursor: pointer;
+}
+
+.event:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .calender__container {
+    padding: 6rem 1rem 1rem 1rem;
+  }
+  .month {
+    font-size: 2rem;
+  }
+  td,
+  th {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .calender__container {
+    padding: 6rem 0.5rem 0.5rem 0.5rem;
+  }
+  .month {
+    font-size: 1.5rem;
+  }
+  td,
+  th {
+    font-size: 0.8rem;
+  }
+}

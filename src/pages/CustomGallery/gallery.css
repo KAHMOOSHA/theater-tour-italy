@@ -1,0 +1,115 @@
+@font-face {
+  font-family: mainFont;
+  src: url(../../fonts/Khebrat-Musamim-New.ttf);
+}
+
+.Img__holder {
+  padding: 5%;
+  padding-top: 6rem;
+  /* background-color: rgba(0, 0, 0, 0.432); */
+}
+
+.Img__holder h1 {
+  padding: 0 2rem;
+  color: #d2cdaa;
+  font-size: 5rem;
+  font-family: mainFont;
+  text-align: center;
+}
+
+.background {
+  background-color: black;
+  border-radius: 1rem;
+  padding-block: 2rem;
+}
+
+.image_items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.image_item {
+  width: 45%;
+  min-width: 250px;
+  border: 1px solid black;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  aspect-ratio: 16/9;
+}
+
+.image_item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.modal-dialog {
+  margin-top: 8%;
+  scale: 1.3;
+}
+
+.modal-content {
+  width: 100%;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.next,
+.prev {
+  /* font-size: 2rem; */
+  color: #d2cdaa;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: -70px;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #d2cdaa;
+  cursor: pointer;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: -35px;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #d2cdaa;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .Img__holder h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Img__holder h1 {
+    font-size: 3rem;
+  }
+}

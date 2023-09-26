@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@font-face {
+  font-family: mainFont;
+  src: url(../../fonts/Khebrat-Musamim-New.ttf);
+}
+
+.main__Banner {
+  width: 100%;
+  margin-bottom: 3vw;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.carousel {
+  height: 100%;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: black;
+}
+.Carousel video {
+  object-fit: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.322);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.overlay h1 {
+  font-size: 5em;
+  font-family: mainFont;
+  text-align: center;
+  /* font-weight: 300; */
+}
+.overlay ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  padding: 0;
+}
+.overlay ul li {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.overlay ul li p {
+  font-size: 2rem;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .overlay h1 {
+    font-size: 3em;
+  }
+  .overlay ul {
+    gap: 3rem;
+  }
+  .overlay ul li {
+    font-size: 2rem;
+  }
+  .overlay ul li p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel-indicators button {
+    width: 20px !important;
+    height: 2px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .overlay h1 {
+    font-size: 2em;
+  }
+  .overlay ul {
+    gap: 2rem;
+  }
+  .overlay ul li {
+    font-size: 1.5rem;
+  }
+  .overlay ul li p {
+    font-size: 1rem;
+  }
+  .carousel-item {
+    height: 50vh;
+    background-color: black;
+  }
+  /* remove this */
+  .carousel-item img {
+    object-fit: scale-down;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    scale: 0.7;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .overlay h1 {
+    font-size: 1.5em;
+  }
+  .overlay ul li {
+    font-size: 1rem;
+  }
+  .overlay ul li p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .overlay h1 {
+    font-size: 1em;
+  }
+  .overlay ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .overlay ul li {
+    font-size: 0.8rem;
+  }
+  .overlay ul li p {
+    font-size: 0.5rem;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    scale: 0.5;
+  }
+  .carousel-indicators button {
+    width: 15px !important;
+    height: 2px !important;
+  }
+}

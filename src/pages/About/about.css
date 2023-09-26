@@ -1,0 +1,44 @@
+.about {
+  padding-inline: 20%;
+  padding-block: 20%;
+  background-image: url(../../components/media/website\ bg-03.png);
+  background-color: rgba(250, 235, 215, 0.67);
+  background-size: 90%;
+  background-repeat: repeat-y;
+}
+
+.about p {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  font-family: mainFont;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .about {
+    padding-block: 25%;
+  }
+}
+
+/* @media (max-width: 300px) {
+  .about {
+    padding-block: 30%;
+  }
+  .about p {
+    font-size: 0.8rem;
+  }
+} */
