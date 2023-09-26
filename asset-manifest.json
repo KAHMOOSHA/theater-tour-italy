@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/theater-tour-italy/static/css/main.4096ded8.css",
-    "main.js": "/theater-tour-italy/static/js/main.8fd63152.js",
+    "main.css": "/theater-tour-italy/static/css/main.548b80b8.css",
+    "main.js": "/theater-tour-italy/static/js/main.b9979d2a.js",
     "static/js/775.31e3e0c3.chunk.js": "/theater-tour-italy/static/js/775.31e3e0c3.chunk.js",
     "static/js/108.d89cd65f.chunk.js": "/theater-tour-italy/static/js/108.d89cd65f.chunk.js",
     "static/js/508.7d3d9001.chunk.js": "/theater-tour-italy/static/js/508.7d3d9001.chunk.js",
@@ -45,8 +45,8 @@
     "static/media/Khebrat-Musamim-New.ttf": "/theater-tour-italy/static/media/Khebrat-Musamim-New.00e0b8c303b7fceb1cc8.ttf",
     "static/media/gallery-img20.jpg": "/theater-tour-italy/static/media/gallery-img20.fc5d2cf936c925b3696e.jpg",
     "index.html": "/theater-tour-italy/index.html",
-    "main.4096ded8.css.map": "/theater-tour-italy/static/css/main.4096ded8.css.map",
-    "main.8fd63152.js.map": "/theater-tour-italy/static/js/main.8fd63152.js.map",
+    "main.548b80b8.css.map": "/theater-tour-italy/static/css/main.548b80b8.css.map",
+    "main.b9979d2a.js.map": "/theater-tour-italy/static/js/main.b9979d2a.js.map",
     "108.d89cd65f.chunk.js.map": "/theater-tour-italy/static/js/108.d89cd65f.chunk.js.map",
     "508.7d3d9001.chunk.js.map": "/theater-tour-italy/static/js/508.7d3d9001.chunk.js.map",
     "390.91c684ba.chunk.js.map": "/theater-tour-italy/static/js/390.91c684ba.chunk.js.map",
@@ -57,7 +57,7 @@
     "32.77123b58.chunk.js.map": "/theater-tour-italy/static/js/32.77123b58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4096ded8.css",
-    "static/js/main.8fd63152.js"
+    "static/css/main.548b80b8.css",
+    "static/js/main.b9979d2a.js"
   ]
 }
