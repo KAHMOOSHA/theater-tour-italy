@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../../components/navBar";
 import Banner from "../../components/banner";
 import SolidImage from "../../components/Solid-image/SolidImage";
-import Footer from "../../components/footer/Footer";
 import Video from "../../components/Video/Video";
 import "./home.css";
 // import ReactPlayer from "react-player";
@@ -65,17 +64,16 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Banner slides={bannerSlides} />
+      <Banner slides={bannerSlides} interval={5000} />
       <div className="content_container">
         <SolidImage
           img={image}
-            text="All that's left to me is a play about Home in diffrent points of view.
-                  Odyssues, Telemachous, Penelope, and Antinos everyone of them
-                  see home in a diffrent way, like we all do."
+            text="All that's left to me is a play about Home in different points of view.
+                  Odysseus, Telemachus, Penelope, Calypso, and Antinos everyone of them
+                  sees home in a different way, like we all do."
         />
         <Video />
       </div>
-      <Footer />
     </>
   );
 };

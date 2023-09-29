@@ -22,7 +22,7 @@ const Navbar = () => {
   ];
   return (
     <header className="nav__bar">
-      <div className="logo">Theater </div>
+      <div className="logo unselectable">All That's Left To Me</div>
       <nav>
         <ul>
           {navLinks.map((link, index) => (

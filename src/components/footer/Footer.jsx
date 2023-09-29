@@ -1,12 +1,14 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
-        <h1>instagram</h1>
+      <h1>
+        <i class="bi bi-instagram"></i> Instagram
+      </h1>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

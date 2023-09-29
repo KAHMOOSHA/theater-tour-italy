@@ -15,12 +15,22 @@ html {
   box-sizing: border-box;
   
 }
+::-moz-selection { 
+  color: rgb(244, 222, 222);
+  background: rgba(0, 0, 0, 0.450);
+}
+
+::selection {
+  color: rgb(244, 222, 222);
+  background: rgba(0, 0, 0, 0.450);
+}
 
 body {
   /* background-color: rgba(0, 0, 0, 0.948) !important; */
   background-color: #db7045 !important;
   background-image: url(components/media/effect-main.png);
   background-image: url(components/media/effect-main-edited.png);
+  position: relative;
 }
 button {
   border: none;
@@ -54,6 +64,14 @@ a {
   text-align: center;
   color: black;
   letter-spacing: 1rem;
+}
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 

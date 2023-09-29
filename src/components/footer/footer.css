@@ -6,6 +6,9 @@ footer {
   font-size: 14px;
   font-weight: bold;
   width: 100%;
+  position: absolute;
+  bottom: -3vw;
+
 }
 
 footer h1 {

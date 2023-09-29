@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState } from "react";
 
 const LazyImage = ({ src, alt }) => {
   const imageRef = useRef(null);
@@ -19,7 +19,7 @@ const LazyImage = ({ src, alt }) => {
 
     if (currentImageRef) {
       observer = new IntersectionObserver(handleIntersection, {
-        rootMargin: '0px 0px 50px 0px', // Adjust as needed
+        rootMargin: "0px 0px 50px 0px", // Adjust as needed
         threshold: 0.1, // Adjust as needed
       });
 
@@ -40,13 +40,13 @@ const LazyImage = ({ src, alt }) => {
   return (
     <img
       ref={imageRef}
-      src={isVisible ? src : ''}
+      src={isVisible ? src : ""}
       alt={alt}
-      loading={isLoading ? 'eager' : 'lazy'}
+      loading={isLoading ? "eager" : "lazy"}
       onLoad={handleImageLoad}
       style={{
-        filter: isLoading ? 'blur(20px)' : 'none', // Adjust the blur intensity
-        transition: 'filter 1s ease', // Adjust the animation duration
+        filter: isLoading ? "blur(10px)" : "none", // Adjust the blur intensity
+        transition: "filter 0.3s ease", // Adjust the animation duration
       }}
     />
   );

@@ -16,18 +16,22 @@ const Modal = ({ modal, setModal, content }) => {
           return true;
         }}
       >
-        <div className="modal__img">
-          <LazyImage src={content.img} alt="event" />
-        </div>
-        <div className="modal__content">
-          <h1>{content.title}</h1>
-          <p>{content.description}</p>
-          <p>{content.NameOfCity}</p>
-          <Link target="_blank" to={content.location}>
-            <i className="bi bi-geo-alt-fill"></i>
-            Stradanuova - Teatro Auditorium Manzoni - Bologna (BO)
-          </Link>
-        </div>
+        {content && (
+          <>
+            <div className="modal__img">
+              <LazyImage src={content.img} alt="event" />
+            </div>
+            <div className="modal__content">
+              <h1>{content.title}</h1>
+              <p>{content.description}</p>
+              <p>{content.NameOfCity}</p>
+              <Link target="_blank" to={content.location}>
+                <i className="bi bi-geo-alt-fill"></i>
+                Stradanuova - Teatro Auditorium Manzoni - Bologna (BO)
+              </Link>
+            </div>
+          </>
+        )}
       </PureModal>
     </>
   );
